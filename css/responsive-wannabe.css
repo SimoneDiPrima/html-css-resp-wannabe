@@ -1,0 +1,29 @@
+
+
+
+
+/* scelgo di partire dal mobile. */
+@media screen and (max-width:479px){
+    *,
+    *::before,
+    *::after{
+    margin: 0 auto;
+    display:flex;
+    flex-direction:column;
+    text-align:justify;
+    padding:20px;
+    }   
+}
+
+@media screen and (max-width:760px){
+
+  body{
+        display:flex;
+        flex-direction:column;
+        margin:0 auto;
+        align-items:center;
+    
+
+    }
+
+}
