@@ -1,0 +1,26 @@
+/* scelgo di partire dal mobile. */
+
+
+@media screen and (max-width:760px){
+
+  .container{
+        width:100%;
+    }
+}
+@media screen and (max-width:480px){
+    
+
+
+    .row{
+        flex-direction: column;
+        align-items:center;
+        text-align:justify;
+    }
+    section .steps{
+        width:100%;
+        margin:0 auto;
+    }
+    .why-us{
+        background-color: black;
+    }
+}
