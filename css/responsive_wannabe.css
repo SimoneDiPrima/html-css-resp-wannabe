@@ -1,6 +1,4 @@
-/* scelgo di partire dal mobile. */
-
-
+/* scelgo di partire dal tablet. */
 @media screen and (max-width:768px){
 
   .container{
@@ -9,16 +7,22 @@
 }
 @media screen and (max-width:480px){
 
-
+    *{
+        margin:0 auto;
+    }
     .row{
         flex-direction: column;
-        
+    }
+    .steps{
+        margin:0;
     }
     .lessons .col , .steps .col , .why-us .col {
         width:100%;
-        
+        padding:20px 0;
     }
     .why-us{
         background-color: black;
+        padding-top:20px;
+        margin-bottom:0;
     }
 }
